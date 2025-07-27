@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(10, 20, 49, 0.835);
+}
+
+#MainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(7, 51, 84);
+  color: bisque;
+  width: 70dvw;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+    font-size: large;
+    height: 4dvh;
+    width: 25dvw;
+}
+
+#taskDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    width: 60dvw;
+    border-radius: 10px;
+}
+
+
+.Completed {
+  background-color: green;
+}
+.pending {
+  background-color: red;
+}
+.ongoing {
+  background-color: orange;
+}

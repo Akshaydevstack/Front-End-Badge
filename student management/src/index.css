@@ -1,0 +1,57 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(162, 130, 130);
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin: 10px;
+  padding: 7px;
+  width: 20dvw;
+  font-size: large;
+}
+
+#maindiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-image: linear-gradient(to right, #007bff, #00c6ff);
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover{
+    background-image: linear-gradient(to right, #5c7ea2, #5bb8d2);
+}
+
+#studentdetials{
+  background-color: #00c6ff;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  border: solid green;
+  border-radius: 10px;
+}
+
+#showStudent {
+  display: flex;
+  flex-direction: row; 
+  gap: 10px;          
+  flex-wrap: wrap;    
+  justify-content: center;
+}
