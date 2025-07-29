@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#Navbar {
+  background-color: bisque;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 5dvh;
+  align-items: center;
+}
+
+#Homepage {
+  background-color: rgb(8, 36, 82);
+  height: 100dvh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+#inputpage{
+background-color: cadetblue;
+gap: 10px;
+height: 100dvh;
+display: flex;
+flex-direction: column;
+padding: 100px;
+align-items: center;
+}
+
+input{
+  width: 20dvw;
+  height: 5dvh;
+  border: solid wheat;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+button{
+  padding: 10px;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+#ShowInput{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100dvh;
+  background-color: rgb(25, 105, 78);
+  gap: 10px;
+}

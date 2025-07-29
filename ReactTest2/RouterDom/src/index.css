@@ -1,0 +1,37 @@
+body {
+  background-color: bisque;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  background-color: rgb(68, 155, 124);
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+#home {
+  background-color: rgb(4, 73, 50);
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#inputPage{
+  background-color: rgb(15, 43, 104);
+  height: 100dvh;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  color: antiquewhite;
+}
+#home button {
+  padding: 10px;
+}
